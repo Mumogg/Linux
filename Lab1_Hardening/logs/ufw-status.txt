@@ -1,0 +1,4 @@
+Estado: activo
+Acceso: on (low)
+Predeterminado: deny (entrantes), allow (salientes), disabled (enrutados)
+Perfiles nuevos: skip
