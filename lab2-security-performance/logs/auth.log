@@ -1,0 +1,50 @@
+2025-06-12T11:43:44.702458-06:00 x-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-06-12T11:43:44.706058-06:00 x-VirtualBox sudo:        x : TTY=pts/0 ; PWD=/home/x ; USER=root ; COMMAND=/usr/bin/apt install auditd stress sysstat git -y
+2025-06-12T11:43:44.706341-06:00 x-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by x(uid=1000)
+2025-06-12T11:43:44.710130-06:00 x-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-06-12T11:44:05.759551-06:00 x-VirtualBox sudo:        x : TTY=pts/0 ; PWD=/home/x ; USER=root ; COMMAND=/usr/bin/dpkg --configure -a
+2025-06-12T11:44:05.759738-06:00 x-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by x(uid=1000)
+2025-06-12T11:44:54.440020-06:00 x-VirtualBox dbus-daemon[1446]: [session uid=1000 pid=1446] Failed to activate service 'org.gnome.Shell.Screencast': timed out (service_start_timeout=120000ms)
+2025-06-12T11:45:01.711665-06:00 x-VirtualBox CRON[2824]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-06-12T11:45:01.830900-06:00 x-VirtualBox CRON[2824]: pam_unix(cron:session): session closed for user root
+2025-06-12T11:47:12.267681-06:00 x-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-06-12T11:47:22.728184-06:00 x-VirtualBox sudo:        x : TTY=pts/0 ; PWD=/home/x ; USER=root ; COMMAND=/usr/bin/apt update
+2025-06-12T11:47:22.728389-06:00 x-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by x(uid=1000)
+2025-06-12T11:47:24.845090-06:00 x-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-06-12T11:47:24.848287-06:00 x-VirtualBox sudo:        x : TTY=pts/0 ; PWD=/home/x ; USER=root ; COMMAND=/usr/bin/apt install auditd stress sysstat git -y
+2025-06-12T11:47:24.848554-06:00 x-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by x(uid=1000)
+2025-06-12T11:47:40.110837-06:00 x-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-06-12T11:55:01.896317-06:00 x-VirtualBox CRON[3302]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-06-12T11:55:01.897359-06:00 x-VirtualBox CRON[3302]: pam_unix(cron:session): session closed for user root
+2025-06-12T11:55:43.286555-06:00 x-VirtualBox sudo:        x : TTY=pts/0 ; PWD=/home/x/Linux/Lab2_security-performance ; USER=root ; COMMAND=/usr/sbin/adduser sospechoso --gecos  --disabled-password
+2025-06-12T11:55:43.590356-06:00 x-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by x(uid=1000)
+2025-06-12T11:55:44.442182-06:00 x-VirtualBox groupadd[3316]: group added to /etc/group: name=sospechoso, GID=1002
+2025-06-12T11:55:44.783895-06:00 x-VirtualBox groupadd[3316]: group added to /etc/gshadow: name=sospechoso
+2025-06-12T11:55:44.784544-06:00 x-VirtualBox groupadd[3316]: new group: name=sospechoso, GID=1002
+2025-06-12T11:55:45.851500-06:00 x-VirtualBox useradd[3323]: new user: name=sospechoso, UID=1002, GID=1002, home=/home/sospechoso, shell=/bin/bash, from=/dev/pts/1
+2025-06-12T11:55:48.020439-06:00 x-VirtualBox chfn[3336]: changed user 'sospechoso' information
+2025-06-12T11:55:49.046228-06:00 x-VirtualBox gpasswd[3344]: members of group users set by root to x,soporte,sospechoso
+2025-06-12T11:55:49.047533-06:00 x-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-06-12T11:55:49.050501-06:00 x-VirtualBox sudo:        x : TTY=pts/0 ; PWD=/home/x/Linux/Lab2_security-performance ; USER=root ; COMMAND=/usr/sbin/chpasswd
+2025-06-12T11:55:49.050823-06:00 x-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by x(uid=1000)
+2025-06-12T11:55:49.229085-06:00 x-VirtualBox chpasswd[3353]: pam_unix(chpasswd:chauthtok): password changed for sospechoso
+2025-06-12T11:55:49.229153-06:00 x-VirtualBox chpasswd[3353]: gkr-pam: couldn't update the login keyring password: no old password was entered
+2025-06-12T11:55:49.229920-06:00 x-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-06-12T11:55:49.232951-06:00 x-VirtualBox sudo:        x : TTY=pts/0 ; PWD=/home/x/Linux/Lab2_security-performance ; USER=root ; COMMAND=/usr/sbin/usermod -aG sudo sospechoso
+2025-06-12T11:55:49.233250-06:00 x-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by x(uid=1000)
+2025-06-12T11:55:49.821042-06:00 x-VirtualBox usermod[3358]: add 'sospechoso' to group 'sudo'
+2025-06-12T11:55:49.821105-06:00 x-VirtualBox usermod[3358]: add 'sospechoso' to shadow group 'sudo'
+2025-06-12T11:55:50.564386-06:00 x-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-06-12T11:55:50.567520-06:00 x-VirtualBox sudo:        x : TTY=pts/0 ; PWD=/home/x/Linux/Lab2_security-performance ; USER=sospechoso ; COMMAND=/usr/bin/bash -c 'sudo cat /etc/shadow 2>/dev/null || true'
+2025-06-12T11:55:50.568389-06:00 x-VirtualBox sudo: pam_unix(sudo:session): session opened for user sospechoso(uid=1002) by x(uid=1000)
+2025-06-12T11:56:00.828755-06:00 x-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname=x uid=1002 euid=0 tty=/dev/pts/1 ruser=sospechoso rhost=  user=sospechoso
+2025-06-12T11:56:11.662612-06:00 x-VirtualBox sudo: sospechoso : 3 incorrect password attempts ; TTY=pts/1 ; PWD=/home/x/Linux/Lab2_security-performance ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+2025-06-12T11:56:11.663340-06:00 x-VirtualBox sudo: pam_unix(sudo:session): session closed for user sospechoso
+2025-06-12T11:56:11.666361-06:00 x-VirtualBox sudo:        x : TTY=pts/0 ; PWD=/home/x/Linux/Lab2_security-performance ; USER=root ; COMMAND=/usr/sbin/ausearch -ua sospechoso
+2025-06-12T11:56:11.666603-06:00 x-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by x(uid=1000)
+2025-06-12T11:56:11.844397-06:00 x-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-06-12T11:56:11.847501-06:00 x-VirtualBox sudo:        x : TTY=pts/0 ; PWD=/home/x/Linux/Lab2_security-performance ; USER=root ; COMMAND=/usr/sbin/ausearch -f /etc/shadow
+2025-06-12T11:56:11.847737-06:00 x-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by x(uid=1000)
+2025-06-12T11:56:11.849313-06:00 x-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-06-12T11:56:11.851796-06:00 x-VirtualBox sudo:        x : TTY=pts/0 ; PWD=/home/x/Linux/Lab2_security-performance ; USER=root ; COMMAND=/usr/bin/tail -n 50 /var/log/auth.log
+2025-06-12T11:56:11.852022-06:00 x-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by x(uid=1000)

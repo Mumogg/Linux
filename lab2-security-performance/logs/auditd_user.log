@@ -1,0 +1,12 @@
+----
+time->Thu Jun 12 11:56:00 2025
+type=USER_AUTH msg=audit(1749750960.827:429): pid=3368 uid=1002 auid=1000 ses=2 subj=unconfined msg='op=PAM:authentication grantors=? acct="sospechoso" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=failed'
+----
+time->Thu Jun 12 11:56:06 2025
+type=USER_AUTH msg=audit(1749750966.082:430): pid=3368 uid=1002 auid=1000 ses=2 subj=unconfined msg='op=PAM:authentication grantors=? acct="sospechoso" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=failed'
+----
+time->Thu Jun 12 11:56:09 2025
+type=USER_AUTH msg=audit(1749750969.381:431): pid=3368 uid=1002 auid=1000 ses=2 subj=unconfined msg='op=PAM:authentication grantors=? acct="sospechoso" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=failed'
+----
+time->Thu Jun 12 11:56:11 2025
+type=USER_CMD msg=audit(1749750971.661:432): pid=3368 uid=1002 auid=1000 ses=2 subj=unconfined msg='cwd="/home/x/Linux/Lab2_security-performance" cmd=636174202F6574632F736861646F77 exe="/usr/bin/sudo" terminal=pts/1 res=failed'
